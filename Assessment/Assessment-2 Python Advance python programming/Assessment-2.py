@@ -1,5 +1,4 @@
 import random
-#import pymysql
 import sqlite3
 
 print("Billing Software\n")
@@ -228,29 +227,3 @@ except Exception as h:
     o = input("\nIf you want to continue then Press c to continue \nfor exit press e : ")
     if o == 'c':
         ab.g()
-
-
-
-'''try:
-    db = pymysql.connect(host = 'localhost', user = 'root', password = '', database = 'task')
-    print("Database connected")
-except Exception as e:
-    print(e)
-
-cur = db.cursor()
-
-create = "create table shop1(ID integer primary key auto_increment, Customer_Name text, phone_Number integer, Bill_No integer, Bath_Soap integer, Face_Cream integer, Face_Wash integer, Hair_Spray integer, Body_Lotion integer, Rice integer, Food_Oil integer, Daal integer, Wheat integer, Sugar integer, Maza integer, Coke integer, Frooti integer, Nimkos integer, Biscuits integer, Total_Cosmetics integer, Total_Grocery integer, Othre_Total integer, Cosmetics_Tax integer, Grocery_Tax integer, Others_Tax integer, Grand_Total integer)"
-try:
-    cur.execute(create)
-    #print("Table created")
-except Exception as e:
-    print(e)
-
-
-insert = 0
-try:
-    cur.execute("insert into shop1(Customer_Name, phone_Number, Bill_No, Bath_Soap, Face_Cream, Face_Wash, Hair_Spray, Body_Lotion, Rice, Food_Oil, Daal, Wheat, Sugar, Maza, Coke, Frooti, Nimkos, Biscuits, Total_Cosmetics, Total_Grocery, Othre_Total, Cosmetics_Tax, Grocery_Tax, Others_Tax, Grand_Total)values(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",(self.cn, self.cp, self.bn, self.co1, self.co2, self.co3, self.co4, self.co5, self.gr1, self.gr2, self.gr3, self.gr4, self.gr5, self.ot1, self.ot2, self.ot3, self.ot4, self.ot5, self.cost, self.grst, self.otst, self.cost1, self.grst1, self.otst1, self.total))
-    db.commit()
-    print("Record inserted")
-except Exception as e:
-    print(e)'''
