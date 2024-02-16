@@ -1,0 +1,94 @@
+*to install django virson
+pip install django==4.0
+
+django-admin --version
+
+*for ste up virtual environmet 
+pip instal virtualenv for virtual environment
+
+*for environment set every folder
+open cmd and go to the path location by scarch bar and write this command     foldername\Scripts\activate
+by pip install django==virson name    you can set verrios version by this
+
+*to active environment 
+foldername\Scripts\activate
+
+to cerate project
+django-admin startproject firstproject
+
+
+G:\10Oct_Shyam_Python\Django Project>firstenv\Scripts\activate
+
+(firstenv) G:\10Oct_Shyam_Python\Django Project>cd firstproject
+
+(firstenv) G:\10Oct_Shyam_Python\Django Project\firstproject>code .
+
+(firstenv) G:\10Oct_Shyam_Python\Django Project\firstproject>
+
+
+
+python .\manage.py runserver
+
+
+python manage.py migrate
+
+ctrl c
+
+
+python .\manage.py runserver 4500
+
+
+
+
+
+===============================================================================
+##For creating virtual environment 
+
+
+* for create file for project
+virtualenv filename
+
+
+* to go to the folder
+cd filename
+
+
+*to activate the environment
+Scripts\activate
+
+
+*to install djando on that environment
+pip install django
+for install any specific version 
+pip install django==4.0
+
+
+* to create your project and filename is the project name
+django-admin startproject filename
+
+
+* to go to the folder
+cd first
+
+
+*to start that project on vs code
+code .
+
+
+=============================================================================
+##for activate virtual environment
+
+
+*first go n that folder
+cd active environment foldername 
+
+* to activate that virtual environment
+Scripts\activate
+
+
+*go that project folder
+cd projectfolder-name
+
+
+*to start that project on vs code
+code .
