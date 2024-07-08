@@ -92,3 +92,33 @@ cd projectfolder-name
 
 *to start that project on vs code
 code .
+
+gemini api key
+AIzaSyDDOPhNdvwboqaoMvOAsHC6L4PXiqLzJbg
+
+
+
+
+python manage.py makemigrations
+after that migrate 
+
+
+
+
+
+https://dev.to/codemaker2015/build-your-own-chatgpt-using-google-gemini-api-51bh
+
+
+
+
+games
+https://hackr.io/blog/python-projects
+
+
+
+
+
+static 
+for find in vs code 
+
+/static/image
